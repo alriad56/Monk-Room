@@ -1,4 +1,4 @@
-import RoomCard from "./RoomCard";
+
 
 
 const StudyRoom = () => {

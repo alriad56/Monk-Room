@@ -3,7 +3,7 @@ import Sidebar from '../components/Sidebar';
 import { Outlet } from 'react-router';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import StudyRoom from '../components/StudyRoom';
+
 
 const Root = () => {
     return (
@@ -15,7 +15,7 @@ const Root = () => {
         
                 <main className="flex-1 px-6 md:px-10">
                     <Outlet />
-                    <StudyRoom/>
+                   
                 </main>
                
             </div>
