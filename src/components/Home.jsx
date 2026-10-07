@@ -3,7 +3,7 @@ import StudyRoom from "./StudyRoom";
 const Home = () => {
     return (
         <div>
-            {/* Hero Section */}
+           
             <div className="flex flex-col items-center justify-center text-center bg-gradient-to-br from-purple-500 to-blue-500 rounded-xl text-white w-full min-h-[300px] p-6 mx-auto">
 
                 <h1>Good Evening</h1>
@@ -30,7 +30,7 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* Study Room Section */}
+            
             <StudyRoom />
         </div>
     );
