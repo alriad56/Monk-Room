@@ -4,6 +4,7 @@ import Home from "../components/Home";
 import StudyRoom from "../components/StudyRoom";
 import Notes from "../components/Notes";
 import QuickNotes from "../components/QuickNotes";
+import ShareNotes from "../components/ShareNotes";
 
 export const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
             {
                 path:"QuickNotes",
                 Component: QuickNotes
+            },
+            {
+                path:"ShareNotes",
+                Component: ShareNotes
             }
            
         ],
