@@ -5,6 +5,8 @@ import StudyRoom from "../components/StudyRoom";
 import Notes from "../components/Notes";
 import QuickNotes from "../components/QuickNotes";
 import ShareNotes from "../components/ShareNotes";
+import CampusConnect from "../components/CampusConnect";
+import ProjectRoom from "../components/ProjectRoom";
 
 export const router = createBrowserRouter([
     {
@@ -20,9 +22,14 @@ export const router = createBrowserRouter([
                 Component: StudyRoom,
             },
             {
+                path:"ProjectRoom",
+                Component: ProjectRoom,
+            },
+            {
                 path:"Notes",
                 Component: Notes
             },
+       
             {
                 path:"QuickNotes",
                 Component: QuickNotes
@@ -30,6 +37,12 @@ export const router = createBrowserRouter([
             {
                 path:"ShareNotes",
                 Component: ShareNotes
+            },
+            
+             {
+                    path:"CampusConnect",
+                    Component: CampusConnect
+                
             }
            
         ],
